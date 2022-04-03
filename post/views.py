@@ -4,9 +4,5 @@ from django.shortcuts import render
 # Create your views here.
 
 
-def post(requset):
-    return HttpResponse('day la bai viet')
-
-
-def post2(request):
-    return HttpResponse('day la bai viet  2')
+def post(request):
+    return render(request, 'post/post.html')
