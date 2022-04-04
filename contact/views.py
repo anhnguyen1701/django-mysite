@@ -5,4 +5,4 @@ from django.shortcuts import render
 
 
 def contact(request):
-    return HttpResponse('trang lien he')
+    return render(request, 'contact/contact.html')
