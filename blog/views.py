@@ -4,5 +4,5 @@ from django.shortcuts import render
 # Create your views here.
 
 
-def post(request):
-    return render(request, 'post/post.html')
+def blog(request):
+    return render(request, 'blog/blog.html')
