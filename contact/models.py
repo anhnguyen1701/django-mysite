@@ -9,4 +9,4 @@ class contactForm(models.Model):
     body = models.TextField()
 
     def __str__(self):
-        return self.username, self.email
+        return self.username
